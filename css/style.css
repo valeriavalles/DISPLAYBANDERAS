@@ -1,0 +1,25 @@
+
+/*Como mi elemento div es de tipo bloque me permite darle el tamaño que desee, 
+en este caso a todos los bloques de elemento  div le asigno el margen de separacion
+de los bloques, el padding que es el espacio de mi contenido y el borde y el height 
+el tamaño de mi bloque div */
+div {
+    height: 100px;
+    padding-top: 1px;
+    padding-left:8px;
+    margin: 10px;
+}
+/*Yellow y black son los atributos class que me permiten darle color a mi elemento div
+de tipo bloque */
+.yellow {
+    background-color: rgb(247, 216, 43);
+}
+.black {
+    background-color:rgb(83, 82, 83);
+    
+}
+/*Le asigno un atributo white tipo class para poder darle color a 
+mi texto (elemento p de tipo bloque)*/
+.white {
+    color: white;
+}
